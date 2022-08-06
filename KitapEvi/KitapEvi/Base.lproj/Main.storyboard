@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qKZ-3j-ZPS">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ana Sayfa Vc-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AnaSayfaVc" customModule="odev3_emreYildirim" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Vzv-24-C1W">
+                                <rect key="frame" x="37" y="108" width="340.5" height="514.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="a7J-eL-seX">
+                                        <rect key="frame" x="0.0" y="0.0" width="340.5" height="235.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Falaka" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0iD-lE-qV9">
+                                                <rect key="frame" x="0.0" y="0.0" width="340.5" height="20.5"/>
+                                                <color key="backgroundColor" name="YaziRenk"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" name="ArkaPlan"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="e0R-xs-oah">
+                                                <rect key="frame" x="0.0" y="35.5" width="340.5" height="200"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Palaka" translatesAutoresizingMaskIntoConstraints="NO" id="xmg-p6-g8P">
+                                                        <rect key="frame" x="0.0" y="0.0" width="138.5" height="200"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="1Mk-uJ-tU1">
+                                                        <rect key="frame" x="188.5" y="0.0" width="152" height="200"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvd-ZE-Q6I">
+                                                                <rect key="frame" x="0.0" y="0.0" width="152" height="87.5"/>
+                                                                <color key="backgroundColor" name="ArkaPlan"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" image="Sepet" subtitle="">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="Ekle">
+                                                                            <attributes>
+                                                                                <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
+                                                                    <color key="baseForegroundColor" name="YaziRenk"/>
+                                                                </buttonConfiguration>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="falakaSepeteEkle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="18r-ME-qsd"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyn-EC-7ji">
+                                                                <rect key="frame" x="0.0" y="112.5" width="152" height="87.5"/>
+                                                                <color key="backgroundColor" name="ArkaPlan"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" image="Ozet">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="Özeti İncele">
+                                                                            <attributes>
+                                                                                <font key="NSFont" size="20" name="Helvetica"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
+                                                                    <color key="baseForegroundColor" name="YaziRenk"/>
+                                                                </buttonConfiguration>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="falakaOzetIncele:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AIc-Kw-kjs"/>
+                                                                    <segue destination="siM-U3-uMo" kind="presentation" identifier="OzetIncele" id="VZW-98-Otj"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="hbW-cN-VSg">
+                                        <rect key="frame" x="0.0" y="265.5" width="340.5" height="249"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İki Şehrin Hikayesi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYE-KG-LJm">
+                                                <rect key="frame" x="0.0" y="0.0" width="340.5" height="20.5"/>
+                                                <color key="backgroundColor" name="YaziRenk"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" name="ArkaPlan"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="7Le-ZM-VKT">
+                                                <rect key="frame" x="0.0" y="35.5" width="340.5" height="213.5"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IkiSehrinHikayesi" translatesAutoresizingMaskIntoConstraints="NO" id="zYB-hg-s2h">
+                                                        <rect key="frame" x="0.0" y="0.0" width="140.5" height="213.5"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="9X9-FY-RSY">
+                                                        <rect key="frame" x="190.5" y="0.0" width="150" height="213.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6J-qs-QyB">
+                                                                <rect key="frame" x="0.0" y="0.0" width="150" height="94.5"/>
+                                                                <color key="backgroundColor" name="ArkaPlan"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" image="Sepet" title="Ekle" subtitle="">
+                                                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                                                    <color key="baseForegroundColor" name="YaziRenk"/>
+                                                                </buttonConfiguration>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="ikiSehirSepeteEkle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xj5-Cc-dhJ"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNn-k7-jmO">
+                                                                <rect key="frame" x="0.0" y="119.5" width="150" height="94"/>
+                                                                <color key="backgroundColor" name="ArkaPlan"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" image="Ozet">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="Özeti İncele">
+                                                                            <attributes>
+                                                                                <font key="NSFont" size="20" name="Helvetica"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
+                                                                    <color key="baseForegroundColor" name="YaziRenk"/>
+                                                                </buttonConfiguration>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="ikiSehirOzetiIncele:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DYO-ze-Vpq"/>
+                                                                    <segue destination="siM-U3-uMo" kind="presentation" identifier="OzetIncele2" id="6gI-cQ-vCw"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6y-Bn-whg">
+                                <rect key="frame" x="0.0" y="809" width="414" height="62"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.28627450980392155" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="NoX-hn-FJE"/>
+                                    <constraint firstAttribute="height" constant="62" id="V8E-al-MxY"/>
+                                </constraints>
+                                <color key="tintColor" name="YaziRenk"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="SepetBosalt" title="Sepeti Boşalt"/>
+                                <connections>
+                                    <action selector="sepetBosalt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yoi-aq-GB6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mz-90-4sJ">
+                                <rect key="frame" x="0.0" y="742" width="414" height="62"/>
+                                <color key="backgroundColor" name="ArkaPlan"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="pm9-Dk-B3b"/>
+                                    <constraint firstAttribute="height" constant="62" id="tLj-QV-DaS"/>
+                                </constraints>
+                                <color key="tintColor" name="YaziRenk"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Sepet" title="Sepet Tutarı : 5 ₺  |  Sepete Git!"/>
+                                <connections>
+                                    <action selector="odemeYap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oat-Oh-ebr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Herkesin okuma alışkanlığını kazanabilmesi adına yapmış olduğumuz kampanyada, her kitap 1₺'dir!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZl-Hs-76E">
+                                <rect key="frame" x="20" y="669" width="374" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="1xe-N2-JZq"/>
+                                    <constraint firstAttribute="width" constant="374" id="uxH-q1-E6b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" name="YaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="YaziRenk"/>
+                        <constraints>
+                            <constraint firstItem="1mz-90-4sJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8US-1k-7vy"/>
+                            <constraint firstAttribute="bottom" secondItem="S6y-Bn-whg" secondAttribute="bottom" constant="25" id="9PZ-Xl-RhM"/>
+                            <constraint firstItem="S6y-Bn-whg" firstAttribute="top" secondItem="1mz-90-4sJ" secondAttribute="bottom" constant="5" id="EnL-VC-o3V"/>
+                            <constraint firstItem="S6y-Bn-whg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PBs-3U-4h4"/>
+                            <constraint firstItem="1mz-90-4sJ" firstAttribute="top" secondItem="LZl-Hs-76E" secondAttribute="bottom" constant="5" id="VQn-La-DHB"/>
+                            <constraint firstItem="LZl-Hs-76E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dG7-OI-i8w"/>
+                            <constraint firstItem="Vzv-24-C1W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="g8h-u9-Q2T"/>
+                            <constraint firstItem="Vzv-24-C1W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xuQ-KG-2o9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XgA-4k-HLd"/>
+                    <connections>
+                        <outlet property="altBilgi" destination="LZl-Hs-76E" id="8uj-qd-9oR"/>
+                        <outlet property="falakaBaslik" destination="0iD-lE-qV9" id="iZH-mk-ACT"/>
+                        <outlet property="falakaOzet" destination="dyn-EC-7ji" id="skD-pn-yeN"/>
+                        <outlet property="falakaSepet" destination="Mvd-ZE-Q6I" id="RgY-ix-btA"/>
+                        <outlet property="ikiSehirBaslik" destination="iYE-KG-LJm" id="Mnv-vl-TXX"/>
+                        <outlet property="ikiSehirOzet" destination="uNn-k7-jmO" id="JYi-Sb-vX1"/>
+                        <outlet property="ikiSehirSepet" destination="A6J-qs-QyB" id="pFn-kc-aol"/>
+                        <outlet property="sepetBosaltma" destination="S6y-Bn-whg" id="2qS-F2-DSb"/>
+                        <outlet property="sepeteGit" destination="1mz-90-4sJ" id="Lyi-Mk-2Go"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="789.85507246376812" y="65.625"/>
+        </scene>
+        <!--Ozet Vc-->
+        <scene sceneID="vNu-g8-r7H">
+            <objects>
+                <viewController id="siM-U3-uMo" customClass="OzetVc" customModule="odev3_emreYildirim" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Bp-U8-9Dg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VDF-MH-I2a" userLabel="OzetImgView">
+                                <rect key="frame" x="68" y="64" width="278" height="244"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="278" id="Pv6-g9-a7J"/>
+                                    <constraint firstAttribute="height" constant="244" id="bmX-sn-lMF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHW-jk-pGe" userLabel="ozetLabel">
+                                <rect key="frame" x="68" y="358" width="278" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="YaziRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ayt-j6-Xe0"/>
+                        <color key="backgroundColor" name="ArkaPlan"/>
+                        <constraints>
+                            <constraint firstItem="VDF-MH-I2a" firstAttribute="leading" secondItem="Ayt-j6-Xe0" secondAttribute="leading" constant="68" id="5Wx-lV-FJU"/>
+                            <constraint firstItem="Ayt-j6-Xe0" firstAttribute="trailing" secondItem="VDF-MH-I2a" secondAttribute="trailing" constant="68" id="5ni-kZ-nu8"/>
+                            <constraint firstItem="VDF-MH-I2a" firstAttribute="top" secondItem="Ayt-j6-Xe0" secondAttribute="top" constant="20" id="BTL-Is-xYu"/>
+                            <constraint firstItem="lHW-jk-pGe" firstAttribute="top" secondItem="VDF-MH-I2a" secondAttribute="bottom" constant="50" id="EiL-Td-YmK"/>
+                            <constraint firstItem="lHW-jk-pGe" firstAttribute="leading" secondItem="Ayt-j6-Xe0" secondAttribute="leading" constant="68" id="QR5-1S-9lw"/>
+                            <constraint firstItem="Ayt-j6-Xe0" firstAttribute="trailing" secondItem="lHW-jk-pGe" secondAttribute="trailing" constant="68" id="dgB-Tp-lKQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="VDF-MH-I2a" id="9hq-4V-dwV"/>
+                        <outlet property="lblOzet" destination="lHW-jk-pGe" id="P7N-cp-5dH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Abq-mc-Gzj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1631.8840579710147" y="65.625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HVB-M3-tRO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qKZ-3j-ZPS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gUZ-L4-OmC">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ieH-E1-83n"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fI1-Es-QfE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68" y="66"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="6gI-cQ-vCw"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="IkiSehrinHikayesi" width="140.5" height="213.5"/>
+        <image name="Ozet" width="20" height="20"/>
+        <image name="Palaka" width="138.5" height="200"/>
+        <image name="Sepet" width="20" height="20"/>
+        <image name="SepetBosalt" width="20" height="20"/>
+        <namedColor name="ArkaPlan">
+            <color red="0.18823529411764706" green="0.6470588235294118" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="YaziRenk">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="YaziRenk2">
+            <color red="0.3880000114440918" green="0.3880000114440918" blue="0.3880000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

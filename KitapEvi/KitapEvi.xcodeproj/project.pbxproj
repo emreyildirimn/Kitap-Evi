@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D06460D5289D8FF100259789 /* OzetVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06460D4289D8FF100259789 /* OzetVc.swift */; };
+		D0695DE1289D322B009CCA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0695DE0289D322B009CCA9A /* AppDelegate.swift */; };
+		D0695DE3289D322B009CCA9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0695DE2289D322B009CCA9A /* SceneDelegate.swift */; };
+		D0695DE5289D322B009CCA9A /* AnaSayfaVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0695DE4289D322B009CCA9A /* AnaSayfaVc.swift */; };
+		D0695DE8289D322B009CCA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0695DE6289D322B009CCA9A /* Main.storyboard */; };
+		D0695DEA289D322E009CCA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0695DE9289D322E009CCA9A /* Assets.xcassets */; };
+		D0695DED289D322E009CCA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0695DEB289D322E009CCA9A /* LaunchScreen.storyboard */; };
+		D0695E02289D4395009CCA9A /* PlayfairDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0695E00289D4395009CCA9A /* PlayfairDisplay.ttf */; };
+		D0695E03289D4395009CCA9A /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0695E01289D4395009CCA9A /* PlayfairDisplay-Italic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D06460D4289D8FF100259789 /* OzetVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzetVc.swift; sourceTree = "<group>"; };
+		D0695DDD289D322B009CCA9A /* KitapEvi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitapEvi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0695DE0289D322B009CCA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0695DE2289D322B009CCA9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0695DE4289D322B009CCA9A /* AnaSayfaVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaVc.swift; sourceTree = "<group>"; };
+		D0695DE7289D322B009CCA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0695DE9289D322E009CCA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0695DEC289D322E009CCA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0695DEE289D322E009CCA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0695E00289D4395009CCA9A /* PlayfairDisplay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PlayfairDisplay.ttf; path = fonts/PlayfairDisplay.ttf; sourceTree = SOURCE_ROOT; };
+		D0695E01289D4395009CCA9A /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Italic.ttf"; path = "fonts/PlayfairDisplay-Italic.ttf"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0695DDA289D322B009CCA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0695DD4289D322B009CCA9A = {
+			isa = PBXGroup;
+			children = (
+				D0695DDF289D322B009CCA9A /* KitapEvi */,
+				D0695DDE289D322B009CCA9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0695DDE289D322B009CCA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0695DDD289D322B009CCA9A /* KitapEvi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0695DDF289D322B009CCA9A /* KitapEvi */ = {
+			isa = PBXGroup;
+			children = (
+				D0695DE0289D322B009CCA9A /* AppDelegate.swift */,
+				D0695DE2289D322B009CCA9A /* SceneDelegate.swift */,
+				D0695DE4289D322B009CCA9A /* AnaSayfaVc.swift */,
+				D06460D4289D8FF100259789 /* OzetVc.swift */,
+				D0695DE6289D322B009CCA9A /* Main.storyboard */,
+				D0695DE9289D322E009CCA9A /* Assets.xcassets */,
+				D0695DEB289D322E009CCA9A /* LaunchScreen.storyboard */,
+				D0695DEE289D322E009CCA9A /* Info.plist */,
+				D0695DF8289D3B20009CCA9A /* Fonts */,
+			);
+			path = KitapEvi;
+			sourceTree = "<group>";
+		};
+		D0695DF8289D3B20009CCA9A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D0695E01289D4395009CCA9A /* PlayfairDisplay-Italic.ttf */,
+				D0695E00289D4395009CCA9A /* PlayfairDisplay.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0695DDC289D322B009CCA9A /* KitapEvi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0695DF1289D322E009CCA9A /* Build configuration list for PBXNativeTarget "KitapEvi" */;
+			buildPhases = (
+				D0695DD9289D322B009CCA9A /* Sources */,
+				D0695DDA289D322B009CCA9A /* Frameworks */,
+				D0695DDB289D322B009CCA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KitapEvi;
+			productName = odev3_emreYildirim;
+			productReference = D0695DDD289D322B009CCA9A /* KitapEvi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0695DD5289D322B009CCA9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D0695DDC289D322B009CCA9A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D0695DD8289D322B009CCA9A /* Build configuration list for PBXProject "KitapEvi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0695DD4289D322B009CCA9A;
+			productRefGroup = D0695DDE289D322B009CCA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0695DDC289D322B009CCA9A /* KitapEvi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0695DDB289D322B009CCA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0695E03289D4395009CCA9A /* PlayfairDisplay-Italic.ttf in Resources */,
+				D0695DED289D322E009CCA9A /* LaunchScreen.storyboard in Resources */,
+				D0695E02289D4395009CCA9A /* PlayfairDisplay.ttf in Resources */,
+				D0695DEA289D322E009CCA9A /* Assets.xcassets in Resources */,
+				D0695DE8289D322B009CCA9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0695DD9289D322B009CCA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0695DE5289D322B009CCA9A /* AnaSayfaVc.swift in Sources */,
+				D0695DE1289D322B009CCA9A /* AppDelegate.swift in Sources */,
+				D06460D5289D8FF100259789 /* OzetVc.swift in Sources */,
+				D0695DE3289D322B009CCA9A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0695DE6289D322B009CCA9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0695DE7289D322B009CCA9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0695DEB289D322E009CCA9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0695DEC289D322E009CCA9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0695DEF289D322E009CCA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0695DF0289D322E009CCA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0695DF2289D322E009CCA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KitapEvi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emreYildirim.odev3-emreYildirim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0695DF3289D322E009CCA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KitapEvi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emreYildirim.odev3-emreYildirim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0695DD8289D322B009CCA9A /* Build configuration list for PBXProject "KitapEvi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0695DEF289D322E009CCA9A /* Debug */,
+				D0695DF0289D322E009CCA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0695DF1289D322E009CCA9A /* Build configuration list for PBXNativeTarget "KitapEvi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0695DF2289D322E009CCA9A /* Debug */,
+				D0695DF3289D322E009CCA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0695DD5289D322B009CCA9A /* Project object */;
+}
